@@ -77,4 +77,10 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 }
-print(myfamily)
+print(myfamily["child2"]["name"])
+
+for x, obj in myfamily.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y])

@@ -10,7 +10,7 @@ class Solution:
         for i in range(min(x,y)):
             if(str1[i]==str2[i]):
                 count=count+1
-        print(count)
+        print(count+1)
 word1="ABCABCABC"
 word2="ABC"
 obj=Solution

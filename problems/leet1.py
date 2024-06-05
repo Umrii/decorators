@@ -17,5 +17,5 @@ def mergeAlternately(word1,word2):
         arr.append(word2[x:])
     return ''.join(arr)
 print(mergeAlternately(word1,word2))
-print('hello')
+
     

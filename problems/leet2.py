@@ -11,10 +11,10 @@ class Solution:
             if(str1[i]==str2[i]):
                 count=count+1
         print(count)
-word1="ABCABC"
+word1="ABCABCABC"
 word2="ABC"
 obj=Solution
-obj.gcdOfStrings(word1,word2)
+# obj.gcdOfStrings(word1,word2)
 #Check if one string can be constructed by repeating the other: A string t divides string s if and only if s can be constructed 
 #by concatenating multiple copies of t. For example, "ABC" divides "ABCABC" because "ABCABC" = "ABC" + "ABC".
 

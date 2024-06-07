@@ -11,7 +11,7 @@ class Solution:
             if(str1[i]==str2[i]):
                 count=count+1
         print(count+1)
-        print("okay")
+        print("not okay")
 word1="ABCABCABC"
 word2="ABC"
 obj=Solution
